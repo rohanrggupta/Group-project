@@ -2,8 +2,8 @@
 int main()
 {
     int num;
-    printf("\nWelcome! Here you can get the information about all the elements of the PERIODIC TABLE.\n");
-    printf("\nJust enter the atomic number of the element you want to get information about: ");
+    printf("\nWelcome! Here you can get the information about the 40 elements of the PERIODIC TABLE and all the units are in their standard form.\n");
+    printf("\nJust enter the name of the element you want to get information about: ");
     scanf("%d" , &num);
     switch(num){
         case 1:printf("Name of element-  Hydrogen\nAtomic Mass- 1.008\nBlock- S\nPeriod- 1\n");
